@@ -7,18 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA381D4F2B9A1C20007B2890 /* _1_100_days_gradientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA381D4E2B9A1C20007B2890 /* _1_100_days_gradientApp.swift */; };
+		DA381D4F2B9A1C20007B2890 /* GradientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA381D4E2B9A1C20007B2890 /* GradientApp.swift */; };
 		DA381D512B9A1C20007B2890 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA381D502B9A1C20007B2890 /* ContentView.swift */; };
 		DA381D532B9A1C23007B2890 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA381D522B9A1C23007B2890 /* Assets.xcassets */; };
 		DA381D562B9A1C23007B2890 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA381D552B9A1C23007B2890 /* Preview Assets.xcassets */; };
+		DA381D622B9A60E1007B2890 /* RussoOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DA381D612B9A60E1007B2890 /* RussoOne-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DA381D4B2B9A1C20007B2890 /* 01_100_days_gradient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 01_100_days_gradient.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA381D4E2B9A1C20007B2890 /* _1_100_days_gradientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _1_100_days_gradientApp.swift; sourceTree = "<group>"; };
+		DA381D4E2B9A1C20007B2890 /* GradientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientApp.swift; sourceTree = "<group>"; };
 		DA381D502B9A1C20007B2890 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DA381D522B9A1C23007B2890 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA381D552B9A1C23007B2890 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DA381D602B9A5FAD007B2890 /* -1-100-days-gradient-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "-1-100-days-gradient-Info.plist"; sourceTree = SOURCE_ROOT; };
+		DA381D612B9A60E1007B2890 /* RussoOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RussoOne-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +54,11 @@
 		DA381D4D2B9A1C20007B2890 /* 01_100_days_gradient */ = {
 			isa = PBXGroup;
 			children = (
-				DA381D4E2B9A1C20007B2890 /* _1_100_days_gradientApp.swift */,
+				DA381D602B9A5FAD007B2890 /* -1-100-days-gradient-Info.plist */,
+				DA381D4E2B9A1C20007B2890 /* GradientApp.swift */,
 				DA381D502B9A1C20007B2890 /* ContentView.swift */,
 				DA381D522B9A1C23007B2890 /* Assets.xcassets */,
+				DA381D612B9A60E1007B2890 /* RussoOne-Regular.ttf */,
 				DA381D542B9A1C23007B2890 /* Preview Content */,
 			);
 			path = 01_100_days_gradient;
@@ -126,6 +131,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA381D562B9A1C23007B2890 /* Preview Assets.xcassets in Resources */,
+				DA381D622B9A60E1007B2890 /* RussoOne-Regular.ttf in Resources */,
 				DA381D532B9A1C23007B2890 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA381D512B9A1C20007B2890 /* ContentView.swift in Sources */,
-				DA381D4F2B9A1C20007B2890 /* _1_100_days_gradientApp.swift in Sources */,
+				DA381D4F2B9A1C20007B2890 /* GradientApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +281,7 @@
 				DEVELOPMENT_TEAM = 4ML86CCMQ4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-1-100-days-gradient-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -305,6 +312,7 @@
 				DEVELOPMENT_TEAM = 4ML86CCMQ4;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "-1-100-days-gradient-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
