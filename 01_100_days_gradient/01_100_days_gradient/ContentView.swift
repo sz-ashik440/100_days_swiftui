@@ -9,17 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
   var body: some View {
-    ZStack let extractedExpr: some View = LinearGradient(gradient:
-                                                          Gradient(colors: [
-                                                            Color(red: 67/255, green: 56/255, blue: 159/255),
-                                                            Color(red: 78/255, green: 198/255, blue: 202/255)
-                                                          ]), 
-                                                         startPoint: .bottomLeading,
-                                                         endPoint: .topTrailing)
+    ZStack {
+      LinearGradient(gradient:
+                      Gradient(colors: [
+                        Color(red: 67/255, green: 56/255, blue: 159/255),
+                        Color(red: 78/255, green: 198/255, blue: 202/255)
+                      ]),
+                     startPoint: .bottomLeading,
+                     endPoint: .topTrailing)
       .frame(width: 340, height: 340)
       .shadow(color: Color.black.opacity(0.3), radius: 12, x: 1, y: 5)
-    {
-      extractedExpr
       
       VStack(spacing: 0) {
         HStack{
@@ -62,6 +61,7 @@ struct ContentView: View {
           .foregroundStyle(.white)
       }
     }
+    
   }
 }
 
